@@ -1,6 +1,4 @@
 @charset "UTF-8";
-html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%
-}
 
 body{margin:0;padding:0
 }
@@ -205,7 +203,6 @@ body {
 	font-family:Lato,sans-serif;
 	font-weight:400;
 	line-height:1.48;
-	font-smooth:always;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale
 	}
@@ -808,8 +805,6 @@ object {
 
 html {
 	box-sizing:border-box
-	}*{
-	box-sizing:inherit
 	}
 
 :after,
@@ -935,13 +930,6 @@ body {
 	height:100%
 } 
 
-.layer {
-	width:100%;
-	height:100%;
-	background-image:url(/assets/images/background-2.jpg);
-	background-size:cover;
-	background-position:center
-}
 
 canvas {
 	width:100%;
@@ -1296,10 +1284,6 @@ hr {
 	background:rgba(132,156,177,.86)
 }
 
-::selection {
-	color:#fff;
-	background:rgba(132,156,177,.86)
-}
 
 .hidden {
 	display:none
